@@ -1,0 +1,513 @@
+[
+  {
+    "bankNum": "138",
+    "bankName": "ABC CAPITAL",
+    "bankFullname": "ABC Capital"
+  },
+  {
+    "bankNum": "102",
+    "bankName": "ABNAMRO",
+    "bankFullname": "ABN AMRO Bank México"
+  },
+  {
+    "bankNum": "614",
+    "bankName": "ACCIVAL",
+    "bankFullname": "Acciones y Valores Banamex"
+  },
+  {
+    "bankNum": "622",
+    "bankName": "ACTINVE SI",
+    "bankFullname": "Actinver S.A. de C.V."
+  },
+  {
+    "bankNum": "062",
+    "bankName": "AFIRME",
+    "bankFullname": "Banca Afirme"
+  },
+  {
+    "bankNum": "620",
+    "bankName": "AFORE PROFUTURO",
+    "bankFullname": "Profuturo G.N.P."
+  },
+  {
+    "bankNum": "638",
+    "bankName": "AKALA",
+    "bankFullname": "Akala"
+  },
+  {
+    "bankNum": "103",
+    "bankName": "AMERICAN EXPRESS",
+    "bankFullname": "American Express Bank (México)"
+  },
+  {
+    "bankNum": "652",
+    "bankName": "ASEA",
+    "bankFullname": "Solución Asea"
+  },
+  {
+    "bankNum": "619",
+    "bankName": "ASEGURADORA MAPFRE",
+    "bankFullname": "MAPFRE Tepeyac S.A."
+  },
+  {
+    "bankNum": "128",
+    "bankName": "AUTOFIN",
+    "bankFullname": "Banco Autofin México"
+  },
+  {
+    "bankNum": "127",
+    "bankName": "AZTECA",
+    "bankFullname": "Banco Azteca"
+  },
+  {
+    "bankNum": "610",
+    "bankName": "B&B",
+    "bankFullname": "B y B Casa de Cambio"
+  },
+  {
+    "bankNum": "030",
+    "bankName": "BAJÍO",
+    "bankFullname": "Banco del Bajío"
+  },
+  {
+    "bankNum": "106",
+    "bankName": "BAMSA",
+    "bankFullname": "Bank of America México"
+  },
+  {
+    "bankNum": "002",
+    "bankName": "BANAMEX",
+    "bankFullname": "Banco Nacional de México"
+  },
+  {
+    "bankNum": "006",
+    "bankName": "BANCOMEXT",
+    "bankFullname": "Banco Nacional de Comercio Exterior"
+  },
+  {
+    "bankNum": "137",
+    "bankName": "BANCOPPEL",
+    "bankFullname": "BanCoppel"
+  },
+  {
+    "bankNum": "019",
+    "bankName": "BANJERCITO",
+    "bankFullname": "Banco Nacional del Ejército"
+  },
+  {
+    "bankNum": "147",
+    "bankName": "BANKAOOL",
+    "bankFullname": "Bankaool"
+  },
+  {
+    "bankNum": "009",
+    "bankName": "BANOBRAS",
+    "bankFullname": "Banco Nacional de Obras y Servicios Públicos"
+  },
+  {
+    "bankNum": "072",
+    "bankName": "BANORTE",
+    "bankFullname": "Banco Mercantil del Norte"
+  },
+  {
+    "bankNum": "058",
+    "bankName": "BANREGIO",
+    "bankFullname": "Banco Regional de Monterrey"
+  },
+  {
+    "bankNum": "166",
+    "bankName": "BANSEFI",
+    "bankFullname": "Banco del Ahorro Nacional y Servicios Financieros"
+  },
+  {
+    "bankNum": "060",
+    "bankName": "BANSI",
+    "bankFullname": "Bansi"
+  },
+  {
+    "bankNum": "129",
+    "bankName": "BARCLAYS",
+    "bankFullname": "Barclays Bank México"
+  },
+  {
+    "bankNum": "145",
+    "bankName": "BBASE",
+    "bankFullname": "Banco BASE"
+  },
+  {
+    "bankNum": "012",
+    "bankName": "BBVA BANCOMER",
+    "bankFullname": "BBVA Bancomer"
+  },
+  {
+    "bankNum": "150",
+    "bankName": "BIM",
+    "bankFullname": "Banco Inmobiliario Mexicano"
+  },
+  {
+    "bankNum": "112",
+    "bankName": "BMONEX",
+    "bankFullname": "Banco Monex"
+  },
+  {
+    "bankNum": "132",
+    "bankName": "BMULTIVA",
+    "bankFullname": "Banco Multiva"
+  },
+  {
+    "bankNum": "632",
+    "bankName": "BULLTICK C.B.",
+    "bankFullname": "Bulltick Casa de Bolsa"
+  },
+  {
+    "bankNum": "604",
+    "bankName": "C.B. INBURSA",
+    "bankFullname": "Inversora Bursátil"
+  },
+  {
+    "bankNum": "630",
+    "bankName": "C.B. INTERCAM",
+    "bankFullname": "Intercam Casa de Bolsa"
+  },
+  {
+    "bankNum": "631",
+    "bankName": "C.B. VANGUARDIA",
+    "bankFullname": "Vanguardia Casa de Bolsa"
+  },
+  {
+    "bankNum": "621",
+    "bankName": "CB ACTINBER",
+    "bankFullname": "Actinver Casa de Bolsa"
+  },
+  {
+    "bankNum": "606",
+    "bankName": "CB BASE",
+    "bankFullname": "Base Internacional Casa de Bolsa"
+  },
+  {
+    "bankNum": "626",
+    "bankName": "CBDEUTSCHE",
+    "bankFullname": "Deutsche Securities"
+  },
+  {
+    "bankNum": "143",
+    "bankName": "CIBanco",
+    "bankFullname": "Consultoría Internacional Banco"
+  },
+  {
+    "bankNum": "901",
+    "bankName": "CLS",
+    "bankFullname": "CLS Bank International"
+  },
+  {
+    "bankNum": "130",
+    "bankName": "COMPARTAMOS",
+    "bankFullname": "Banco Compartamos"
+  },
+  {
+    "bankNum": "624",
+    "bankName": "CONSULTORÍA",
+    "bankFullname": "Consultoría Internacional Casa de Cambio"
+  },
+  {
+    "bankNum": "126",
+    "bankName": "CREDIT SUISSE",
+    "bankFullname": "Banco Credit Suisse (México)"
+  },
+  {
+    "bankNum": "124",
+    "bankName": "DEUTSCHE",
+    "bankFullname": "Deutsche Bank México"
+  },
+  {
+    "bankNum": "648",
+    "bankName": "EVERCORE",
+    "bankFullname": "Evercore Casa de Bolsa"
+  },
+  {
+    "bankNum": "140",
+    "bankName": "FÁCIL",
+    "bankFullname": "Banco Fácil"
+  },
+  {
+    "bankNum": "131",
+    "bankName": "FAMSA",
+    "bankFullname": "Banco Ahorro Famsa"
+  },
+  {
+    "bankNum": "616",
+    "bankName": "FINAMEX",
+    "bankFullname": "Casa de Bolsa Finamex"
+  },
+  {
+    "bankNum": "634",
+    "bankName": "FINCOMUN",
+    "bankFullname": "Fincomún",
+    "field4": "Servicios Financieros Comunitarios"
+  },
+  {
+    "bankNum": "601",
+    "bankName": "GBM",
+    "bankFullname": "GBM Grupo Bursátil Mexicano"
+  },
+  {
+    "bankNum": "022",
+    "bankName": "GE MONEY",
+    "bankFullname": "GE Money Bank"
+  },
+  {
+    "bankNum": "636",
+    "bankName": "HDI SEGUROS",
+    "bankFullname": "HDI Seguros"
+  },
+  {
+    "bankNum": "168",
+    "bankName": "HIPOTECARIA FEDERAL",
+    "bankFullname": "Sociedad Hipotecaria Federal"
+  },
+  {
+    "bankNum": "629",
+    "bankName": "HIPOTECARIA SU CASITA",
+    "bankFullname": "Hipotecaria su Casita"
+  },
+  {
+    "bankNum": "021",
+    "bankName": "HSBC",
+    "bankFullname": "HSBC México"
+  },
+  {
+    "bankNum": "036",
+    "bankName": "INBURSA",
+    "bankFullname": "Banco Inbursa"
+  },
+  {
+    "bankNum": "902",
+    "bankName": "INDEVAL",
+    "bankFullname": "SD. INDEVAL"
+  },
+  {
+    "bankNum": "116",
+    "bankName": "ING",
+    "bankFullname": "ING Bank (México)"
+  },
+  {
+    "bankNum": "037",
+    "bankName": "INTERACCIONES",
+    "bankFullname": "Banco Interacciones"
+  },
+  {
+    "bankNum": "611",
+    "bankName": "INTERCAM",
+    "bankFullname": "Intercam Casa de Cambio"
+  },
+  {
+    "bankNum": "059",
+    "bankName": "INVEX",
+    "bankFullname": "Banco Invex"
+  },
+  {
+    "bankNum": "032",
+    "bankName": "IXE",
+    "bankFullname": "IXE Banco"
+  },
+  {
+    "bankNum": "110",
+    "bankName": "JP MORGAN",
+    "bankFullname": "Banco J.P. Morgan"
+  },
+  {
+    "bankNum": "640",
+    "bankName": "JP MORGAN C.B.",
+    "bankFullname": "J.P. Morgan Casa de Bolsa"
+  },
+  {
+    "bankNum": "653",
+    "bankName": "KUSPIT",
+    "bankFullname": "Kuspit Casa de Bolsa"
+  },
+  {
+    "bankNum": "670",
+    "bankName": "LIBERTAD",
+    "bankFullname": "Libertad Servicios Financieros"
+  },
+  {
+    "bankNum": "602",
+    "bankName": "MASARI CB",
+    "bankFullname": "Masari Casa de Bolsa"
+  },
+  {
+    "bankNum": "615",
+    "bankName": "MERRILL LYNCH",
+    "bankFullname": "Merrill Lynch México"
+  },
+  {
+    "bankNum": "042",
+    "bankName": "MIFEL",
+    "bankFullname": "Banca Mifel"
+  },
+  {
+    "bankNum": "600",
+    "bankName": "MONEXCB",
+    "bankFullname": "Monex Casa de Bolsa"
+  },
+  {
+    "bankNum": "613",
+    "bankName": "MULTIVA",
+    "bankFullname": "Multivalores Casa de Bolsa"
+  },
+  {
+    "bankNum": "999",
+    "bankName": "N/A",
+    "bankFullname": "N/A"
+  },
+  {
+    "bankNum": "135",
+    "bankName": "NAFIN",
+    "bankFullname": "Nacional Financiera"
+  },
+  {
+    "bankNum": "659",
+    "bankName": "OPCIONES EMPRESARIALES DEL NOROESTE",
+    "bankFullname": "Opciones Empresariales Del Noreste"
+  },
+  {
+    "bankNum": "637",
+    "bankName": "ORDER",
+    "bankFullname": "OrderExpress Casa de Cambio"
+  },
+  {
+    "bankNum": "148",
+    "bankName": "PagaTodo",
+    "bankFullname": "Banco PagaTodo S.A."
+  },
+  {
+    "bankNum": "133",
+    "bankName": "PRUDENTIAL",
+    "bankFullname": "Prudencial Bank"
+  },
+  {
+    "bankNum": "642",
+    "bankName": "REFORMA",
+    "bankFullname": "Operadora de Recursos Reforma"
+  },
+  {
+    "bankNum": "136",
+    "bankName": "REGIONAL",
+    "bankFullname": "Banco Regional"
+  },
+  {
+    "bankNum": "156",
+    "bankName": "SABADELL",
+    "bankFullname": "Banco Sabadell"
+  },
+  {
+    "bankNum": "014",
+    "bankName": "SANTANDER",
+    "bankFullname": "Banco Santander"
+  },
+  {
+    "bankNum": "044",
+    "bankName": "SCOTIABANK",
+    "bankFullname": "Scotiabank Inverlat"
+  },
+  {
+    "bankNum": "651",
+    "bankName": "SEGMTY",
+    "bankFullname": "Seguros Monterrey New York Life"
+  },
+  {
+    "bankNum": "623",
+    "bankName": "SKANDIA",
+    "bankFullname": "Skandia Vida S.A. de C.V."
+  },
+  {
+    "bankNum": "649",
+    "bankName": "SKANDIA",
+    "bankFullname": "Skandia Operadora S.A. de C.V."
+  },
+  {
+    "bankNum": "655",
+    "bankName": "SOFIEXPRESS",
+    "bankFullname": "J.P. SOFIEXPRESS"
+  },
+  {
+    "bankNum": "633",
+    "bankName": "STERLING",
+    "bankFullname": "Sterling Casa de Cambio"
+  },
+  {
+    "bankNum": "646",
+    "bankName": "STP",
+    "bankFullname": "Sistema de Transferencias y Pagos STP"
+  },
+  {
+    "bankNum": "647",
+    "bankName": "TELECOMM",
+    "bankFullname": "Telecomunicaciones de México"
+  },
+  {
+    "bankNum": "607",
+    "bankName": "TIBER",
+    "bankFullname": "Casa de Cambio Tiber"
+  },
+  {
+    "bankNum": "108",
+    "bankName": "TOKYO",
+    "bankFullname": "Bank of Tokyo-Mitsubishi UFJ (México)"
+  },
+  {
+    "bankNum": "139",
+    "bankName": "UBS BANK",
+    "bankFullname": "UBS Banco"
+  },
+  {
+    "bankNum": "656",
+    "bankName": "UNAGRA",
+    "bankFullname": "UNAGRA"
+  },
+  {
+    "bankNum": "618",
+    "bankName": "ÚNICA",
+    "bankFullname": "Única Casa de Cambio"
+  },
+  {
+    "bankNum": "617",
+    "bankName": "VALMEX",
+    "bankFullname": "Valores Mexicanos Casa de Bolsa"
+  },
+  {
+    "bankNum": "605",
+    "bankName": "VALUÉ",
+    "bankFullname": "Valué"
+  },
+  {
+    "bankNum": "113",
+    "bankName": "VE POR MAS",
+    "bankFullname": "Banco Ve por Mas"
+  },
+  {
+    "bankNum": "608",
+    "bankName": "VECTOR",
+    "bankFullname": "Vector Casa de Bolsa"
+  },
+  {
+    "bankNum": "141",
+    "bankName": "VOLKSWAGEN",
+    "bankFullname": "Volkswagen Bank S.A. Institución de Banca Múltiple"
+  },
+  {
+    "bankNum": "134",
+    "bankName": "WAL-MART",
+    "bankFullname": "Banco Wal Mart de México Adelante"
+  },
+  {
+    "bankNum": "627",
+    "bankName": "ZURICH",
+    "bankFullname": "Zurich Compañía de Seguros"
+  },
+  {
+    "bankNum": "628",
+    "bankName": "ZURICHVI",
+    "bankFullname": "Zurich Vida"
+  }
+]
