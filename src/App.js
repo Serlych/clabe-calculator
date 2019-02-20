@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Label, Input, Alert, Button } from 'reactstrap'
+import { Container, Input, Alert, Button } from 'reactstrap'
 import BankDropdown from './Components/BankDropdown';
 import PlazaDropdown from './Components/PlazaDropdown'
 
@@ -14,22 +14,21 @@ class App extends Component {
 
     this.state = {
       bank: 0,
-      bankName: 'Selecciona tu banco',
+      bankName: 'Select bank',
       plaza: 0,
-      plazaName: 'Selecciona tu plaza',
+      plazaName: 'Select plaza',
       account: 0,
-      alertVisible: false,
-      clabe: ''
+      bankAlertVisible: false,
+      plazaAlertVisible: false,
+      accountAlertVisible: false,
+      clabe: '',
+      clabeVisible: false
     }
   }
 
   handleChange = (type, event) => {
 
     let newValue = event.target.value
-
-    if (this.state.account.length === 11) {
-      this.setState({ alertVisible: false })
-    }
 
     switch (type) {
 
@@ -53,16 +52,17 @@ class App extends Component {
   handleClick = () => {
 
     const { bank, plaza, account } = this.state
+
     let clabe = getClabe(bank, plaza, account)
 
-    if (account.length === 11) {
-      if (isNaN(clabe)) {
-        this.setState({ alertVisible: true })
-      } else {
-        this.setState({ clabe, displayClabe: true })
-      }
-    } else {
-      this.setState({ alertVisible: true })
+    if (account.length === 11 && !(isNaN(account)) && bank && plaza) {
+      this.setState({ clabe, clabeVisible: true })
+    } else if (!bank) {
+      this.setState({ bankAlertVisible: true })
+    } else if (!plaza) {
+      this.setState({ plazaAlertVisible: true })
+    } else if (!account) {
+      this.setState({ accountAlertVisible: true })
     }
   }
 
@@ -74,53 +74,74 @@ class App extends Component {
     this.setState({ plaza: number, plazaName: name })
   }
 
-  dismissAlert = () => {
-    this.setState({ alertVisible: false });
-  }
-
   render() {
 
-    const { clabe, bank, bankName, plaza, plazaName, account, alertVisible } = this.state
+    const { bank, bankName, plaza, plazaName, account, bankAlertVisible, plazaAlertVisible, accountAlertVisible, clabe, clabeVisible } = this.state
 
     return (
       <Container className="mt-5">
-        <div className="h3 mb-5 text-center">
-          Calcula tu CLABE
+        <div className="h2 mb-5 text-left">
+          Calculate your CLABE
         </div>
 
-        <div className="d-flex flex-row justify-content-around align-items-center">
-          <div>
-            <span>Bank: </span>
-            <BankDropdown handleBank={this.handleBank} selectedBank={bankName} />
+        <div className="d-flex justify-content-between align-items-center">
+
+          <div className="d-flex flex-column justify-content-center step">
+            <span className="h5">Step 1:</span>
+            <span>Choose your bank</span>
+            <BankDropdown handleBank={this.handleBank} selectedBank={bankName} className="dropdown"/>
           </div>
 
-          <div>
-            <span>Plaza: </span>
-            <PlazaDropdown handlePlaza={this.handlePlaza} selectedPlaza={plazaName} />
+          <div className="d-flex flex-column justify-content-center step">
+            <span className="h5">Step 2:</span>
+            <span>Choose your plaza</span>
+            <PlazaDropdown handlePlaza={this.handlePlaza} selectedPlaza={plazaName} className="dropdown"/>
           </div>
 
-          <div>
-            <Label for="acctnum">Account number:</Label>
-            <Input type="text" name="acctnum" id="acctnum" placeholder="Type your account number here" onChange={(e) => this.handleChange('account', e)} maxLength="11" />
+          <div className="d-flex flex-column justify-content-center step">
+            <span className="h5">Step 3:</span>
+            <span>Type your account number</span>
+            <Input type="text" name="acctnum" id="acctnum" placeholder="Here!" onChange={(e) => this.handleChange('account', e)} maxLength="11" />
           </div>
 
           <Button color="primary" onClick={this.handleClick}>Get CLABE</Button>
+
         </div>
 
-        <Alert color="warning" isOpen={alertVisible} toggle={this.dismissAlert} className="mt-4">
-          {bank ? '' : <span>Debes escoger un banco <br /></span>}
-          {plaza ? '' : <span>Debes escoger una plaza <br /></span>}
-          {account ? '' : <span>Debes escribir una cuenta <br /></span>}
+        <div>
           {
-            account.length > 0
-              ? (isNaN(account) ? <span>Escribe un número de cuenta válido <br /></span> : '')
-              : (isNaN(account) ? '' : <span>Tu cuenta debe tener 11 caracteres<br /></span>)
+            !bank
+              ? <Alert color="warning" isOpen={bankAlertVisible} className="mt-4">You must choose a bank</Alert>
+              : null
           }
-        </Alert>
-
-        <div className="d-flex justify-content-center mt-5">
-          <p>Tu CLABE es: <span className="h2 text-center">{clabe}</span></p>
+          {
+            !plaza
+              ? <Alert color="warning" isOpen={plazaAlertVisible} className="mt-4">You must choose a plaza</Alert>
+              : null
+          }
+          {
+            isNaN(account)
+              ? <Alert color="warning" isOpen={accountAlertVisible} className="mt-4">You must write a valid account number</Alert>
+              : (
+                !account
+                  ? <Alert color="warning" isOpen={accountAlertVisible} className="mt-4">You must write an account number</Alert>
+                  : (
+                    account.length < 11
+                      ? <Alert color="warning" isOpen={accountAlertVisible} className="mt-4">Your account number must be 11 characters</Alert>
+                      : null
+                  )
+              )
+          }
         </div>
+
+        {
+          clabeVisible
+            ? <div className="d-flex flex-column align-items-center mt-5">
+                <div>Your CLABE is:</div>
+                <div><span className="h1">{clabe}</span></div>
+              </div>
+            : null
+        }
       </Container>
     );
   }
